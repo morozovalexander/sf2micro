@@ -9,5 +9,10 @@
             "name": "Morozov Alexander",
             "email": "webdevelopacc@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "AppBundle/"
+        }
+    }
 }

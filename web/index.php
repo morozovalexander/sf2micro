@@ -8,7 +8,7 @@ umask(0000);
 $env = 'dev';
 $debug = true;
 
-$loader = require_once __DIR__.'/../vendor/autoload.php';
+$loader = require_once __DIR__.'/../config/autoload.php';
 require_once __DIR__.'/../AppKernel.php';
 
 if ($debug) {
@@ -16,6 +16,7 @@ if ($debug) {
 }
 $kernel = new AppKernel($env, $debug);
 $request = Request::createFromGlobals();
+
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);

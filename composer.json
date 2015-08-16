@@ -1,0 +1,13 @@
+{
+    "name": "morozovalexander/sf2micro",
+    "require": {
+        "symfony/symfony": "^2.7",
+        "sensio/framework-extra-bundle": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Morozov Alexander",
+            "email": "webdevelopacc@gmail.com"
+        }
+    ]
+}

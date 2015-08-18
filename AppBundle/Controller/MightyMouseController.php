@@ -14,7 +14,7 @@ class MightyMouseController extends ContainerAware
     public function rescueAction()
     {
         $html = $this->container->get('twig')->render(
-            'views/mighty_mouse/rescue.html.twig',
+            'mighty_mouse/rescue.html.twig',
             array('quote' => 'Here I come to save the day!')
         );
 
